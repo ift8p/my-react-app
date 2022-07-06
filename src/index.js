@@ -13,7 +13,7 @@ import App from './App';
 // using the API
 // reactdom creates root node of the app, receiving selector, 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// to render something
+// to render smth
 root.render(
   <React.StrictMode>
     <App />
