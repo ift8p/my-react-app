@@ -10,7 +10,7 @@ import App from './App';
 // 5string measuring perfomance in the app измерение производительности
 // import reportWebVitals from './reportWebVitals';
 
-// using API
+// using A P I
 // reactdom creates root node of the app, receiving selector, 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // to render smth
