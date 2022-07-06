@@ -1,17 +1,21 @@
+// Первые строки - импорты в продукт First strings all are imports
+// 1string import of react from nodemodules (class)
 import React from 'react';
+// 2string working with dom-structure on the page (class)
 import ReactDOM from 'react-dom/client';
+// 3string styles import
 import './index.css';
+// 4string import of app function
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+// 5string measuring perfomance in the app измерение производительности
+// import reportWebVitals from './reportWebVitals';
 
+// using API
+// reactdom creates root node of the app, receiving selector, 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// to render smth
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
